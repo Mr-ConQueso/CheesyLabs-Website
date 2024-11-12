@@ -1,3 +1,26 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: 'W95font';
+    src: url('/fonts/w95font.woff2') format('woff2'),
+    url('/fonts/w95font.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'W95font';
+    src: url('/fonts/w95font-bold.woff2') format('woff2'),
+    url('/fonts/w95font-bold.woff') format('woff');
+    font-weight: bold;
+}
+
+body {
+    font-family: 'W95', sans-serif;
+    font-weight: normal;
+}
+
+h1, h2, .bold-text {
+    font-weight: bold;
+}

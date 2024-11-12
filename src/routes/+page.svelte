@@ -1,14 +1,10 @@
 <!-- src/routes/+page.svelte -->
 <script>
-	import HeroSection from '../components/sections/HeroSection.svelte';
-	import ProjectsSection from '../components/sections/ProjectsSection.svelte';
-	import GameDevSection from '../components/sections/GameDevSection.svelte';
+	import Desktop from '../components/Desktop.svelte';
 </script>
 
 <main class="page">
-	<HeroSection />
-	<ProjectsSection />
-	<GameDevSection />
+	<Desktop />
 </main>
 
 <style>
