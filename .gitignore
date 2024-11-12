@@ -1,11 +1,21 @@
-### Deno template
-/.idea/
-/.vscode/
+node_modules
 
-/node_modules
+# Output
+.output
+.vercel
+/.svelte-kit
+/build
 
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
 .env
-*.orig
-*.pyc
-*.swp
+.env.*
+!.env.example
+!.env.test
 
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*

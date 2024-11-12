@@ -1,0 +1,7 @@
+/* src/routes/variables.css */
+:root {
+    --dark-background: #333;  /* Example color */
+    --light-text: #fff;       /* Example color */
+    --primary-color: #feb34d;
+    --secondary-color: #ee6e20;
+}
